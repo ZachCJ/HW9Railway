@@ -66,6 +66,8 @@ public class GettingStartedApplication {
             }
 
             model.put("records", output);
+
+            System.out.println("Zach Johnston");
             return "database";
 
         } catch (Throwable t) {
